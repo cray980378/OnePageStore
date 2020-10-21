@@ -1,0 +1,32 @@
+plugins {
+	id 'org.springframework.boot' version '2.3.4.RELEASE'
+	
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id 'java'
+}
+
+group = 'com.exapmle'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+	maven {
+        url 'http://mavensync.zkoss.org/maven2'
+    }
+}
+
+dependencies {
+	implementation group: 'org.zkoss.zkspringboot', name: 'zkspringboot-starter', version: '1.0.2'
+	
+	// https://mvnrepository.com/artifact/org.zkoss.zk
+	implementation group: 'org.zkoss.zk', name: 'zul', version: '9.5.0.1'
+	implementation group: 'org.zkoss.zk', name: 'zk', version: '9.5.0.1'
+	implementation group: 'org.zkoss.zk', name: 'zkplus', version: '9.5.0.1'
+	implementation group: 'org.zkoss.zk', name: 'zhtml', version: '9.5.0.1'
+	implementation group: 'org.zkoss.zk', name: 'zkbind', version: '9.5.0.1'
+	//implementation 'org.springframework.boot:spring-boot-starter-web'
+	
+	// https://mvnrepository.com/artifact/org.zkoss.zkspringboot/zkspringboot-starter
+
+}
