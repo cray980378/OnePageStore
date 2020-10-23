@@ -1,0 +1,21 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+    <window title="Hello ZK - Spring Boot!" border="normal" >
+	    <image src="/main/resources/web/image/1.jpg" />
+	    <image src="src/main/resources/web/image/1.jpg" />
+	    <image src="/resources/web/image/1.jpg" />
+	    <image src="/1.jpg" />
+	    
+	    <div>
+			QQ You are using ZK version <label value="${session.webApp.version}"/>
+		</div>
+		<div>
+			<button sclass="btn-primary">Primary</button>
+			<button sclass="btn-success">Success</button>
+			<button sclass="btn-info">Info</button>
+			<button sclass="btn-warning">Warning</button>
+			<button sclass="btn-danger">Danger</button>
+		</div>
+		
+    </window>
+</zk>

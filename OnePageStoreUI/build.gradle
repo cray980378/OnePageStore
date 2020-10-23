@@ -25,6 +25,9 @@ dependencies {
 	implementation group: 'org.zkoss.zk', name: 'zkplus', version: '9.5.0.1'
 	implementation group: 'org.zkoss.zk', name: 'zhtml', version: '9.5.0.1'
 	implementation group: 'org.zkoss.zk', name: 'zkbind', version: '9.5.0.1'
+	
+	// implementation group: 'org.zkoss.addons', name: 'zk-bootstrap', version: '1.0.0'
+
 	//implementation 'org.springframework.boot:spring-boot-starter-web'
 	
 	// https://mvnrepository.com/artifact/org.zkoss.zkspringboot/zkspringboot-starter
